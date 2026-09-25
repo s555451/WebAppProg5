@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Time - Obora Efurhievwe</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Part 2: Header -->
+        <h1 class="mb-4">Dinner time by Obora Efurhievwe</h1>
+
+        <!-- Part 3: Letters Row (col-sm-2) -->
+        <h3 class="mt-4">Letters</h3>
+        <div class="row text-center fw-bold bg-light p-2 border">
+            <div class="col-sm-2 border p-2">E</div>
+            <div class="col-sm-2 border p-2">F</div>
+            <div class="col-sm-2 border p-2">U</div>
+            <div class="col-sm-2 border p-2">R</div>
+            <div class="col-sm-2 border p-2">H</div>
+            <div class="col-sm-2 border p-2">I</div>
+        </div>
+
+        <!-- Part 3: Foods Row (col-md) -->
+        <h3 class="mt-4">Foods</h3>
+        <div class="row text-center bg-warning-subtle p-2 border">
+            <div class="col-md border p-2">Eclair</div>
+            <div class="col-md border p-2">Falafel</div>
+            <div class="col-md border p-2">Udon</div>
+            <div class="col-md border p-2">Ramen</div>
+            <div class="col-md border p-2">Hamburger</div>
+            <div class="col-md border p-2">Ice Cream</div>
+        </div>
+
+        <!-- Part 3: Grid Break Question & Answer -->
+        <div class="mt-4 p-3 bg-info-subtle rounded border">
+            <h4>Grid Break Question & Explanation:</h4>
+            <p><strong>Which row breaks first?</strong> The <strong>Foods row (col-md)</strong> breaks first when slowly reducing the browser width.</p>
+            <p><strong>Explanation:</strong> The <code>col-md</code> breakpoint triggers at 768px, causing the food items to stack vertically as soon as the screen width drops below 768px. In contrast, the <code>col-sm-2</code> breakpoint for the letters row stays horizontal across 6 columns until the screen width drops below 576px. Therefore, the foods row breaks into a stacked layout first while the letters row remains horizontal.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
